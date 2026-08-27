@@ -1,0 +1,21 @@
+姓名: 构建安装包
+在……之上:
+推:
+分支机构: [主要的]
+workflow_dispatch:
+工作:
+建立:
+sudo apt-get安装构建必需的zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5cmake libffi-dev libssl-dev openjdk-17-jdk解压git python3-pip-y连续的：Ubuntu-最新操作/结帐@v4
+-姓名
+uses
+-姓名: 安装相依性
+跑: |
+姓名
+sudo apt-get安装构建必需的zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5cmake libffi-dev libssl-dev openjdk-17-jdk解压git python3-pip-y
+姓名
+姓名姓名: 构建安装包
+跑: 姓名uildozer android调试
+Buildozer android调试: 上传工件
+uses: 操作/上载工件@v4
+和……一起:
+路径: bin/*.apk
